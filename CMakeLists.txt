@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.30)
+project(Data_Structures_and_Algorithms C)
+
+set(CMAKE_C_STANDARD 17)
+
+add_executable(hanoi hanoi.c)
+add_executable(Fibonacci_sequence permutation_11.c)
+add_executable(Combination Combination.c)
+add_executable(permutation_11 permutation_11.c)
+add_executable(C_k_n C_k_n.c)
+add_executable(fibo.c fibo.c)
+add_executable(linked_list linked_list.c)
+add_executable(permutation permutation.c)
+add_executable(linear linear_equation.c)
+add_executable(Disjoint Disjoint.c)
+add_executable(Linked_List_Manipulation.c Linked_List_Manipulation.c)
+add_executable(Max_SubSequence Max_SubSequence.c)
+add_executable(Maze Maze.c)
