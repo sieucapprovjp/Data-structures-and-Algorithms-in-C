@@ -4,7 +4,6 @@
 int main() {
     int n;
     if (scanf("%d", &n) != 1) return 0;
-
     long long cur = LLONG_MIN, best = LLONG_MIN;
     for (int i = 0; i < n; ++i) {
         long long x;

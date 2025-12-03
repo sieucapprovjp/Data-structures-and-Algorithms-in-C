@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+
 #define Max 1000
 #define MOD 1000000007
+
 long long M[Max][Max];
 void init(int k,int n) {
     for (int i=0;i<=k;i++) {
@@ -11,6 +12,7 @@ void init(int k,int n) {
         }
     }
 }
+
 long long C_k_n(int k,int n) {
     if (k == 0||k==n) {
         return 1;
@@ -25,6 +27,6 @@ int main() {
     int k, n;
     scanf("%d %d",&k,&n);
     init(k,n);
-    printf("%d",C_k_n(k, n));
+    printf("%lld",C_k_n(k, n));
     return 0;
 }
